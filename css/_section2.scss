@@ -1,0 +1,36 @@
+section {
+    div {
+        img {
+            max-width: 85%;
+            max-height: auto;
+        }
+
+        h4 {
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        p {
+            text-align: inherit;
+        }
+
+        a {
+            color: $azul-link;
+            width: auto;
+            text-decoration: none;
+            align-items: inherit;
+
+            img {
+                vertical-align: bottom;
+            }
+            
+            
+        }
+
+        hr {
+            width: auto;
+            margin-top: 10px;
+            color: $azul-link;
+        }
+    }
+} 

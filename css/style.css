@@ -1,12 +1,14 @@
-body {
-  background-color: #283747;
-}
-
 * {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #283747;
 }
 
 header {
@@ -16,11 +18,14 @@ header {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 50px;
-  width: 100%;
+  padding: 20px;
 }
 
-header ul {
+header nav {
+  width: 50%;
+}
+
+header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,12 +33,146 @@ header ul {
       justify-content: space-around;
 }
 
-header ul li {
+header nav ul li {
   list-style: none;
 }
 
-header ul li a {
+header nav ul li a {
   text-decoration: none;
   color: white;
+  font-size: x-small;
+}
+
+header img {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+main div.div-main-1 {
+  height: 50%;
+  background-image: url(../images/bg-curvy-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+main div.div-main-1 img {
+  max-width: 50%;
+  max-height: 50%;
+  margin: 15px auto;
+}
+
+main div.div-main-1 h1 {
+  margin-bottom: 15px;
+  padding: 7px auto;
+  font-family: arial, sans-serif;
+}
+
+main div.main-div-2 {
+  background-color: #181F2B;
+  height: 50%;
+  padding: 10%;
+}
+
+main div.main-div-2 p {
+  margin-bottom: 25px;
+  font-size: small;
+}
+
+main div.main-div-2 button {
+  padding: 8px 50px;
+  background-image: -webkit-gradient(linear, right top, left top, from(#2eb0c8), to(#81e0f1));
+  background-image: linear-gradient(to left, #2eb0c8, #81e0f1);
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 85px;
+}
+
+main div.main-div-2 button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+section {
+  background-color: #181F2B;
+}
+
+section article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px 20px;
+}
+
+section article img {
+  margin-bottom: 20px;
+}
+
+section article p {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+section div img {
+  max-width: 85%;
+  max-height: auto;
+}
+
+section div h4 {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+section div p {
+  text-align: inherit;
+}
+
+section div a {
+  color: #2f9486;
+  width: auto;
+  text-decoration: none;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit;
+}
+
+section div a img {
+  vertical-align: bottom;
+}
+
+section div hr {
+  width: auto;
+  margin-top: 10px;
+  color: #2f9486;
+}
+
+footer {
+  background-color: #0c1524;
 }
 /*# sourceMappingURL=style.css.map */

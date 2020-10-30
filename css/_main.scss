@@ -1,0 +1,58 @@
+main {
+    // background-color: $azul-bg-img;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    // height: 20%;
+    text-align: center;
+
+    div.div-main-1 {
+        height: 50%;
+        background-image: url(../images/bg-curvy-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+
+        img {
+            max-width: 50%;
+            max-height: 50%;
+            margin: 15px auto;
+        }
+    
+        h1 {
+            margin-bottom: 15px;
+            padding: 7px auto;
+            font-family: arial, sans-serif;
+            // font-weight: bold;
+            
+            
+            
+        }
+    }
+
+    div.main-div-2 {
+        background-color: $azul-bg-img;
+        height: 50%;
+        padding: 10%;
+
+        p {
+           margin-bottom: 25px;
+           font-size: small;
+
+        }
+    
+        button {
+            @include styleButton()
+            margin-bottom: 85px;
+            
+    
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.5s;
+            }
+        }
+    }
+    
+
+}

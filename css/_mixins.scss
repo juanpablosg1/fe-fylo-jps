@@ -1,0 +1,6 @@
+@mixin styleButton {
+    padding: 8px 50px;
+    background-image: linear-gradient(to left, $boton1 , $boton2 );
+    border-radius: 15px;
+    border: none;
+}
