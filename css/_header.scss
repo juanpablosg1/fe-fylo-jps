@@ -1,0 +1,26 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 100%;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        li {
+            list-style: none;
+        
+    
+            a {
+                text-decoration: none;
+                color: $blanco;
+            }
+        }
+
+    }
+        
+        
+}
+    // // header nav {
+    // //     width: 20%;
+    // }
