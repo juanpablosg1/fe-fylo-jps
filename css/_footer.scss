@@ -87,3 +87,13 @@ footer {
     }
     
 }
+
+#lista-nosotros {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        text-decoration: none;
+        margin-bottom: 15px; 
+    }
+}

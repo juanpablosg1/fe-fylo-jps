@@ -352,4 +352,19 @@ footer .container-footer nav ul {
   text-decoration: none;
   margin-bottom: 15px;
 }
+
+#lista-nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#lista-nosotros li {
+  text-decoration: none;
+  margin-bottom: 15px;
+}
 /*# sourceMappingURL=style.css.map */
