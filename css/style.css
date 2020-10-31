@@ -193,6 +193,10 @@ section.section-1 article p {
   transition: 0.5s;
 }
 
+section.section-2 {
+  background-color: #181F2B;
+}
+
 section.section-2 div.bloque-2 {
   background-color: #181F2B;
 }
