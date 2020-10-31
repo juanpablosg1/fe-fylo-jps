@@ -1,36 +1,120 @@
-section {
-    div {
-        img {
-            max-width: 85%;
-            max-height: auto;
-        }
+#access-card {
+    background-color: $azul-tarjeta;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 80%;
+    position: relative;
+    top: 200px;
+    left: 10%;
+    // right: 0;
+    p {
+        font-size: small;
+        text-align: center;
+    }
 
-        h4 {
-            width: 100%;
-            margin-bottom: 5px;
-        }
+    input {
+        padding: 8px 50px;
+        border-radius: 15px;
+        border: none;
+        color: #d6d6d6;
+    }
 
-        p {
-            text-align: inherit;
-        }
+    button {
+        @include styleButton();
+        margin-bottom: 85px;
+        
 
-        a {
-            color: $azul-link;
-            width: auto;
-            text-decoration: none;
-            align-items: inherit;
-
-            img {
-                vertical-align: bottom;
-            }
-            
-            
-        }
-
-        hr {
-            width: auto;
-            margin-top: 10px;
-            color: $azul-link;
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.5s;
         }
     }
+}
+
+
+
+section.section-2 {
+
+    div.bloque-2 {
+        background-color: $azul-bg-img;
+
+        article {
+            display: flex;
+            flex-direction: column;
+            // align-items: center;
+            padding: 50px 20px;
+            // text-align: left;
+    
+            img {
+                max-width: 85%;
+                max-height: auto;
+            }
+    
+            h4 {
+                width: 100%;
+                margin-bottom: 15px;
+            }
+    
+            p {
+                margin-bottom: 15px;
+            }
+    
+            a {
+                color: $azul-link;
+                width: auto;
+                // text-decoration: none;
+                align-items: inherit;
+        
+                
+    
+                i {
+                    color: $azul-link;
+                }
+                
+                
+            }
+    
+            hr {
+                width: auto;
+                margin-top: 10px;
+                color: $azul-link;
+            }
+        }
+    } 
 } 
+
+.card-profiles {
+    background-color: $azul-profiles;
+    margin-bottom: 25px;
+    padding: 2rem;
+    border-radius: 8px;
+
+    .profiles {
+        display: flex;
+        margin-top: 1rem;
+
+        p {
+            font-weight: 400;
+            font-size: .875rem;
+            margin-top: 4px;
+        }
+
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+    }
+}
+
+.container-profiles {
+    padding: 1.5rem;
+    background-color: $azul-bg-img;
+    
+}

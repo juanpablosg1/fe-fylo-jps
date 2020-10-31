@@ -1,4 +1,89 @@
+// #lista-contacto {
+//     // background-color: red;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     height: 100%;
+//     padding: 30px;
+
+//      a {
+//          text-decoration: none;
+//      }
+    
+// }
+
+// #love {
+//     // background-color: red;
+//     flex-direction: column;
+//     justify-content: space-around;
+//     height: 100%;
+//     padding: 30px;
+
+//      a {
+//          text-decoration: none;
+//      }
+// }
+
+
 footer {
     // height: 20%;
     background-color: $azul2;
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 1000px;
+        padding-top: 300px;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1.5rem;
+
+        & > .images-footer-1 {
+            max-width: 120px;
+            
+        }
+
+
+            p {
+                // display: inline-block;
+            }
+        nav {
+            height: 20%;
+            margin: 10px 0;
+
+            ul {
+                width: 100%;
+                display: flex;
+                justify-content: space-evenly;
+                list-style: none;
+            }
+        }
+    }
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+
+    .item-info {
+        display: flex;
+        margin: 25px 15px;
+        align-items: flex-start;
+
+        img {
+            width: 30px;
+            margin-right: 1rem;
+        }
+    }
+}
+
+#lista-contacto {
+    display: flex;
+    flex-direction: column;
+
+    li {
+        text-decoration: none;
+        margin-bottom: 15px; 
+    }
+    
 }

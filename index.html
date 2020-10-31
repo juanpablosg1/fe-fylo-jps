@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4fe1382028.js" crossorigin="anonymous"></script>
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="contenedor-padre">
@@ -55,7 +56,7 @@
         </section>
     
         <section class="section-2">
-            <div>
+            <div class="bloque-2">
                 <article>
                     <img src="images/illustration-stay-productive.png" alt="ilustracion de productividad">
                 </article>
@@ -63,95 +64,114 @@
                     <h4>Stay productive, wherever you are</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus veniam molestiae blanditiis.</p>
                     <p>Porro sed tempore quis ratione incidunt tempora eum repellat numquam illum quibusdam.</p>
-                    <a href="">See how Fylo work <img src="images/icon-arrow.svg" alt=""> <hr> </a>
+                    <a href="">See how Fylo work <i class="fas fa-arrow-circle-right"></i> </a>
                     
                 </article>
             </div>
-            <div>
-                <article>
-                    <div>
-                        <img src="images/bg-quotes.png" alt="Comillas">
+            <div class="container-profiles">
+                <img src="images/bg-quotes.png" alt="Comillas">
+
+                <article class="card-profiles">
+
+                    <div class="p-profiles">
+            
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus dolorum eos aliquid aliquam asperiores.</p>
                     </div>
-                    <div>
+                    <div class="profiles">
                     <img src="images/profile-1.jpg" alt="Foto de persona">
-                    <span>
-                        Name Lastname
-                    </span>
-                    <p>
-                        Founder & CEO, Huddle
-                    </p>
+                    <div>
+                        <strong>
+                            Name Lastname
+                        </strong>
+                        <p>
+                            Founder & CEO, Huddle
+                        </p>
+                    </div>
                     </div>
                 </article>
     
-                <article>
-                    <div>
+                 <article class="card-profiles">
+                    
+                    <div class="p-profiles">
+            
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus dolorum eos aliquid aliquam asperiores.</p>
                     </div>
-                    <div>
+                    <div class="profiles">
                     <img src="images/profile-2.jpg" alt="Foto de persona">
-                    <span>
-                        Name Lastname
-                    </span>
-                    <p>
-                        Founder & CEO, Huddle
-                    </p>
+                    <div>
+                        <strong>
+                            Name Lastname
+                        </strong>
+                        <p>
+                            Founder & CEO, Huddle
+                        </p>
+                    </div>
                     </div>
                 </article>
     
-                <article>
-                    <div>
+                <article class="card-profiles">
+                    
+                    <div class="p-profiles">
+            
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus possimus dolorum eos aliquid aliquam asperiores.</p>
                     </div>
-                    <div>
+                    <div class="profiles">
                     <img src="images/profile-3.jpg" alt="Foto de persona">
-                    <span>
-                        Name Lastname
-                    </span>
-                    <p>
-                        Founder & CEO, Huddle
-                    </p>
+                    <div>
+                        <strong>
+                            Name Lastname
+                        </strong>
+                        <p>
+                            Founder & CEO, Huddle
+                        </p>
+                    </div>
                     </div>
                 </article>
             </div>
     
-            <div>
-                <h2>Get early access today</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum eos sit beatae! Accusamus, fugiat possimus.</p>
+            <div id="access-card">
+                <h3>Get early access today</h3>
+               <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo distinctio nihil doloribus sed esse perferendis, officiis cum sequi amet repellendus facilis quisquam optio minus vitae.</p>
                 <input type="text" placeholder="example@mail.com" name="" id=""><button>Get started for free</button>
             </div>
         </section>
     
         <footer>
-            <div>
-                <article>
-                    <img src="images/logo.svg" alt="Logo">
-                    <img src="images/icon-location.svg" alt="Location icon">
+            <div class="container-footer">
+
+                <img class="images-footer-1" src="images/logo.svg" alt="Logo">
+
+                <article class="container-info">
+                    <div class="item-info">
+                        <img class="images-footer-2" src="images/icon-location.svg" alt="Location icon">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo earum laboriosam architecto magni, nemo fuga!</p>
-                </article>
-                <article>
-                    <img src="images/icon-phone.svg" alt="Phone icon">
-                    <img src="images/icon-email.svg" alt="Email icon">
-                    <p>+ 52 57898867</p>
-                    <p>example@gmail.com</p>
+                    </div>
+                    <div class="item-info">
+                        <img src="images/icon-phone.svg" alt="Phone icon">
+                        <p>+ 52 57898867</p>
+                     </div>
+                      <div class="item-info">
+                        <img class="images-footer-2" src="images/icon-email.svg" alt="Email icon">
+                        <p>example@gmail.com</p>
+                      </div>
                 </article>
                 <nav>
-                    <ul>
-                        <li><a href="">About us</a></li>
+                    <ul id="lista-contacto">
+                        <li><a href="">About Us</a></li>
                         <li><a href="">Jobs</a></li>
                         <li><a href="">Press</a></li>
                         <li><a href="">Blog</a></li>
                     </ul>
                 </nav>
                 <nav>
-                    <ul>
-                        <li><a href="">Contact us</a></li>
+                    <ul id="love">
+                        <li><a href="">Contact Us</a></li>
                         <li><a href="">Terms</a></li>
-                        <li><a href="">Pivacy</a></li>
+                        <li><a href="">Privacy</a></li>
                     </ul>
                 </nav>
                 <nav>
-                    <ul>
+                    <ul class="networking">
                         <li><i class="fab fa-instagram-square"></i></li>
                         <li><i class="fab fa-facebook-square"></i></li>
                         <li><i class="fab fa-twitter-square"></i></li>
